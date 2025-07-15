@@ -23,7 +23,7 @@ This process consists of three stages:
 
 ## Data preparation
 
-The first step is to prepare a list of unique wordforms in the N1904 Greek New Testament. This was done in this [Jupyter Notebook](x), in which I used feature [betacode](https://github.com/tonyjurg/N1904addons/blob/main/docs/features/betacode.md) from my TF addition [N1904addons](https://github.com/tonyjurg/N1904addons). The output is a text file with each transferred betacode word in N1904 GNT; one per line.
+The first step is to prepare a list of unique wordforms in the N1904 Greek New Testament. This was done in this [Jupyter Notebook](x), in which I used feature [betacode](https://tonyjurg.github.io/N1904addons/features/betacode.html) from my TF addition [N1904addons](tonyjurg.github.io/N1904addons/). The output is a text file with each transferred betacode word in N1904 GNT; one per line.
 
 ## Morphological analysis
 
