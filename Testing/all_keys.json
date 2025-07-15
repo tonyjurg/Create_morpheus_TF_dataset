@@ -1,0 +1,40 @@
+{
+  "top_level_keys": [
+    "analyses",
+    "blocks",
+    "raw_beta",
+    "raw_uni"
+  ],
+  "analysis_keys": [
+    "augment_beta",
+    "case",
+    "degree",
+    "dialects",
+    "ending_beta",
+    "ending_uni",
+    "gender",
+    "lem_base_beta",
+    "lem_base_uni",
+    "lem_full_beta",
+    "lem_full_uni",
+    "lem_homonym",
+    "lem_pl_suffix",
+    "mood",
+    "morph",
+    "morph_codes",
+    "morph_flags",
+    "number",
+    "other_end_tokens",
+    "person",
+    "pos",
+    "preverb_beta",
+    "raw_beta",
+    "raw_uni",
+    "stem_beta",
+    "stem_uni",
+    "tense",
+    "voice",
+    "work_beta",
+    "work_uni"
+  ]
+}

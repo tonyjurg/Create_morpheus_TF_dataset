@@ -32,5 +32,7 @@ All procedures and tools are fully documented and openly accessible to ensure co
 
  - [Sandborg-Petersen-decoder](https://github.com/tonyjurg/Sandborg-Petersen-decoder): decoding the morphological tags.
  - [Morphkit](https://tonyjurg.github.io/morphkit/): Python package for interfacing with Morpheus and performing output analysis.
- - [Creating the TF feature betcode](https://github.com/tonyjurg/create_TF_feature_betacode): the foundational feature used to bridge Morpheus and Text-Fabric world.
+ - [Creating the TF feature betacode](https://github.com/tonyjurg/create_TF_feature_betacode): the foundational feature used to bridge Morpheus and Text-Fabric world.
+ - [Creating the entropy features](https://tonyjurg.github.io/Create-TF-entropy-features/): entropy as a measure of the uncertainty or variability of how an element (such as a surface level word, its morph, or its lemma) predicts or aligns with the syntactic functions (like Subject, Object, etc.) of the phrase it belongs to.
+ - [Creating statistical functions](https://tonyjurg.github.io/Create_TF_stat_features/): like number of words and type to token ratio.
 

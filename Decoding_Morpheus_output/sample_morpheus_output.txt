@@ -1,0 +1,668 @@
+Word: kai\
+
+:raw kai\
+
+:workw kai/
+:lem kai/
+:prvb 				
+:aug1 				
+:stem kai/			indeclform	
+:suff 				
+:end 			indeclform	conj
+-----------------------------
+Word: o(
+
+:raw o(
+
+:workw o(
+:lem o(
+:prvb 				
+:aug1 				
+:stem o(			proclitic indeclform	
+:suff 				
+:end 	 masc nom sg		proclitic indeclform	article
+-----------------------------
+Word: e)n
+
+:raw e)n
+
+:workw e)n
+:lem e)n
+:prvb 				
+:aug1 				
+:stem e)n			proclitic indeclform	
+:suff 				
+:end 			proclitic indeclform	prep
+
+:raw e)n
+
+:workw e)n
+:lem ei)s
+:prvb 				
+:aug1 				
+:stem e)n			proclitic indeclform	
+:suff 				
+:end 		doric aeolic	proclitic indeclform	prep
+-----------------------------
+Word: de\
+
+:raw de\
+
+:workw de/
+:lem de/
+:prvb 				
+:aug1 				
+:stem de/			indeclform	
+:suff 				
+:end 			indeclform	particle
+-----------------------------
+Word: tou=
+
+:raw tou=
+
+:workw tou=
+:lem o(
+:prvb 				
+:aug1 				
+:stem tou=			indeclform	
+:suff 				
+:end 	 masc/neut gen sg		indeclform	article
+
+:raw tou=
+
+:workw tou=
+:lem ti/s
+:prvb 				
+:aug1 				
+:stem tou=			indeclform	
+:suff 				
+:end 	 gen sg	attic	indeclform	indecl
+
+:raw tou=
+
+:workw tou=
+:lem tis
+:prvb 				
+:aug1 				
+:stem tou=			enclitic indeclform	
+:suff 				
+:end 	 gen sg	attic	enclitic indeclform	indef
+-----------------------------
+Word: ei)s
+
+:raw ei)s
+
+:workw ei)s
+:lem ei)s
+:prvb 				
+:aug1 				
+:stem ei)s			proclitic indeclform	
+:suff 				
+:end 			proclitic indeclform	prep
+-----------------------------
+Word: to\
+
+:raw to\
+
+:workw to/
+:lem o(
+:prvb 				
+:aug1 				
+:stem to/			indeclform	
+:suff 				
+:end 	 neut nom/voc/acc sg		indeclform	article
+-----------------------------
+Word: to\n
+
+:raw to\n
+
+:workw to/n
+:lem o(
+:prvb 				
+:aug1 				
+:stem to/n			indeclform	
+:suff 				
+:end 	 masc acc sg		indeclform	article
+-----------------------------
+Word: th\n
+
+:raw th\n
+
+:workw th/n
+:lem o(
+:prvb 				
+:aug1 				
+:stem th/n			indeclform	
+:suff 				
+:end 	 fem acc sg	attic epic ionic	indeclform	article
+-----------------------------
+Word: au)tou=
+
+:raw au)tou=
+
+:workw au)tou=
+:lem au)to/s
+:prvb 				
+:aug1 				
+:stem au)t				art_adj
+:suff 				
+:end ou	 neut gen sg			art_adj
+
+:raw au)tou=
+
+:workw au)tou=
+:lem au)to/s
+:prvb 				
+:aug1 				
+:stem au)t				art_adj
+:suff 				
+:end ou	 masc gen sg			art_adj
+
+:raw au)tou=
+
+:workw au)tou=
+:lem au)tou=
+:prvb 				
+:aug1 				
+:stem au)tou=			indeclform	
+:suff 				
+:end 			indeclform	adverb
+-----------------------------
+Word: th=s
+
+:raw th=s
+
+:workw th=s
+:lem o(
+:prvb 				
+:aug1 				
+:stem th=s			indeclform	
+:suff 				
+:end 	 fem gen sg	attic epic ionic	indeclform	article
+-----------------------------
+Word: o(/ti
+
+:raw o(/ti
+
+:workw o(/ti
+:lem o(/stis
+:prvb 				
+:aug1 				
+:stem o(/ti			indeclform	
+:suff 				
+:end 	 neut nom/acc sg		indeclform	relative
+
+:raw o(/ti
+
+:workw o(/ti
+:lem o(/ti1
+:prvb 				
+:aug1 				
+:stem o(/ti			indeclform	
+:suff 				
+:end 			indeclform	adverb
+
+:raw o(/ti
+
+:workw o(/ti
+:lem o(/ti2
+:prvb 				
+:aug1 				
+:stem o(/ti			indeclform	
+:suff 				
+:end 			indeclform	conj
+-----------------------------
+Word: tw=|
+
+:raw tw=|
+
+:workw tw=|
+:lem o(
+:prvb 				
+:aug1 				
+:stem tw=|			indeclform	
+:suff 				
+:end 	 masc/neut dat sg		indeclform	article
+
+:raw tw=|
+
+:workw tw=|
+:lem ti/s
+:prvb 				
+:aug1 				
+:stem tw=|			indeclform	
+:suff 				
+:end 	 dat sg	attic	indeclform	indecl
+
+:raw tw=|
+
+:workw tw=|
+:lem tis
+:prvb 				
+:aug1 				
+:stem tw=|			enclitic indeclform	
+:suff 				
+:end 	 dat sg	attic epic	enclitic indeclform	indef
+
+:raw tw=|
+
+:workw tw=|
+:lem tw=|
+:prvb 				
+:aug1 				
+:stem tw=|			indeclform	
+:suff 				
+:end 			indeclform	adverb
+-----------------------------
+Word: tw=n
+
+:raw tw=n
+
+:workw tw=n
+:lem o(
+:prvb 				
+:aug1 				
+:stem tw=n			indeclform	
+:suff 				
+:end 	 fem gen pl		indeclform	article
+
+:raw tw=n
+
+:workw tw=n
+:lem o(
+:prvb 				
+:aug1 				
+:stem tw=n			indeclform	
+:suff 				
+:end 	 masc/neut gen pl		indeclform	article
+-----------------------------
+Word: oi(
+
+:raw oi(
+
+:workw oi(
+:lem e(/
+:prvb 				
+:aug1 				
+:stem oi(			enclitic indeclform	
+:suff 				
+:end 	 masc/fem dat sg	epic ionic	enclitic indeclform	pron3
+
+:raw oi(
+
+:workw oi(
+:lem o(
+:prvb 				
+:aug1 				
+:stem oi(			proclitic indeclform	
+:suff 				
+:end 	 masc nom/voc pl		proclitic indeclform	article
+-----------------------------
+Word: h(
+
+:raw h(
+
+:workw h(
+:lem o(
+:prvb 				
+:aug1 				
+:stem h(			proclitic indeclform	
+:suff 				
+:end 	 fem nom/voc sg		proclitic indeclform	article
+-----------------------------
+Word: ga\r
+
+:raw ga\r
+
+:workw ga/r
+:lem ga/r
+:prvb 				
+:aug1 				
+:stem ga/r			indeclform	
+:suff 				
+:end 			indeclform	particle
+-----------------------------
+Word: mh\
+
+:raw mh\
+
+:workw mh/
+:lem mh/
+:prvb 				
+:aug1 				
+:stem mh/			indeclform	
+:suff 				
+:end 			indeclform	conj
+-----------------------------
+Word: th=|
+
+:raw th=|
+
+:workw th=|
+:lem o(
+:prvb 				
+:aug1 				
+:stem th=|			indeclform	
+:suff 				
+:end 	 fem dat sg	attic epic ionic	indeclform	article
+
+:raw th=|
+
+:workw th=|
+:lem th=|
+:prvb 				
+:aug1 				
+:stem th=|			indeclform	
+:suff 				
+:end 			indeclform	adverb
+-----------------------------
+Word: au)tw=|
+
+:raw au)tw=|
+
+:workw au)tw=|
+:lem au)to/s
+:prvb 				
+:aug1 				
+:stem au)t				art_adj
+:suff 				
+:end w|	 neut dat sg			art_adj
+
+:raw au)tw=|
+
+:workw au)tw=|
+:lem au)to/s
+:prvb 				
+:aug1 				
+:stem au)t				art_adj
+:suff 				
+:end w|	 masc dat sg			art_adj
+-----------------------------
+Word: ta\
+
+:raw ta\
+
+:workw ta/
+:lem o(
+:prvb 				
+:aug1 				
+:stem ta/			indeclform	
+:suff 				
+:end 	 neut acc pl		indeclform	article
+
+:raw ta\
+
+:workw ta/
+:lem o(
+:prvb 				
+:aug1 				
+:stem ta/			indeclform	
+:suff 				
+:end 	 neut nom/voc/acc pl		indeclform	article
+
+:raw ta\
+
+:workw ta_/
+:lem o(
+:prvb 				
+:aug1 				
+:stem ta_/			indeclform	
+:suff 				
+:end 	 fem acc dual		indeclform	article
+
+:raw ta\
+
+:workw ta_/
+:lem o(
+:prvb 				
+:aug1 				
+:stem ta_/			indeclform	
+:suff 				
+:end 	 fem nom/voc/acc dual		indeclform	article
+
+:raw ta\
+
+:workw ta/
+:lem ti/s
+:prvb 				
+:aug1 				
+:stem ta/			indeclform	
+:suff 				
+:end 	 neut nom/voc/acc pl		indeclform	indecl
+-----------------------------
+Word: ou)k
+
+:raw ou)k
+
+:workw ou)k
+:lem ou)
+:prvb 				
+:aug1 				
+:stem ou)k			proclitic indeclform	
+:suff 				
+:end 			proclitic indeclform	adverb
+-----------------------------
+Word: tou\s
+
+:raw tou\s
+
+:workw tou/s
+:lem o(
+:prvb 				
+:aug1 				
+:stem tou/s			indeclform	
+:suff 				
+:end 	 masc acc pl		indeclform	article
+-----------------------------
+Word: *qeou=
+
+:raw *qeou=
+
+:workw qeou=
+:lem qea/omai
+:prvb 				
+:aug1 				
+:stem qe	 mp	epic ionic		ew_pr,aw_denom
+:suff 				
+:end ou=	 pres imperat mp 2nd sg	attic	contr	ew_pr
+
+:raw *qeou=
+
+:workw qeou=
+:lem qea/omai
+:prvb 				
+:aug1 				
+:stem qe	 mp	epic ionic	unaugmented poetic	ew_pr,aw_denom
+:suff 				
+:end ou=	 imperf ind mp 2nd sg	attic	contr	ew_pr
+
+:raw *qeou=
+
+:workw qeou=
+:lem qea/w
+:prvb 				
+:aug1 				
+:stem qe		epic ionic		ew_pr,aw_denom
+:suff 				
+:end ou=	 pres imperat mp 2nd sg	attic	contr	ew_pr
+
+:raw *qeou=
+
+:workw qeou=
+:lem qea/w
+:prvb 				
+:aug1 				
+:stem qe		epic ionic	unaugmented poetic	ew_pr,aw_denom
+:suff 				
+:end ou=	 imperf ind mp 2nd sg	attic	contr	ew_pr
+
+:raw *qeou=
+
+:workw qeou=
+:lem qeo/s
+:prvb 				
+:aug1 				
+:stem qe	 masc			os_ou
+:suff 				
+:end ou	 masc gen sg			os_ou
+-----------------------------
+Word: pro\s
+
+:raw pro\s
+
+:workw pro/s
+:lem pro/s
+:prvb 				
+:aug1 				
+:stem pro/s			indeclform	
+:suff 				
+:end 			indeclform	prep
+-----------------------------
+Word: e)k
+
+:raw e)k
+
+:workw e)k
+:lem e)k
+:prvb 				
+:aug1 				
+:stem e)k			proclitic indeclform	
+:suff 				
+:end 			proclitic indeclform	prep
+-----------------------------
+Word: i(/na
+
+:raw i(/na
+
+:workw i(/na
+:lem i(/na
+:prvb 				
+:aug1 				
+:stem i(/na			indeclform	
+:suff 				
+:end 			indeclform	adverb
+
+:raw i(/na
+
+:workw i(/na
+:lem i(/na
+:prvb 				
+:aug1 				
+:stem i(/na			indeclform	
+:suff 				
+:end 			indeclform	conj
+-----------------------------
+Word: e)pi\
+
+:raw e)pi\
+
+:workw e)pi/
+:lem e)pi/
+:prvb 				
+:aug1 				
+:stem e)pi/			indeclform	
+:suff 				
+:end 			indeclform	prep
+-----------------------------
+Word: au)to\n
+
+:raw au)to\n
+
+:workw au)to/n
+:lem au)to/s
+:prvb 				
+:aug1 				
+:stem au)t				art_adj
+:suff 				
+:end on	 masc acc sg			art_adj
+-----------------------------
+Word: ou)
+
+:raw ou)
+
+:workw ou)
+:lem ou)
+:prvb 				
+:aug1 				
+:stem ou)			proclitic indeclform	
+:suff 				
+:end 			proclitic indeclform	adverb
+-----------------------------
+Word: toi=s
+
+:raw toi=s
+
+:workw toi=s
+:lem o(
+:prvb 				
+:aug1 				
+:stem toi=s			indeclform	
+:suff 				
+:end 	 masc/neut dat pl		indeclform	article
+-----------------------------
+Word: u(mi=n
+
+:raw u(mi=n
+
+:workw u(mi=n
+:lem su/
+:prvb 				
+:aug1 				
+:stem u(mi=n			indeclform	
+:suff 				
+:end 	 dat 2nd pl		indeclform	pron1
+-----------------------------
+Word: e)stin
+
+:raw e)stin
+
+:workw e)stin
+:lem ei)mi/
+:prvb 				
+:aug1 				
+:stem e)stin			enclitic nu_movable	
+:suff 				
+:end 	 pres ind act 3rd sg			irreg_mi
+-----------------------------
+Word: ei)=pen
+
+:raw ei)=pen
+
+:workw ei)=pen
+:lem ei)=pon
+:prvb 				
+:aug1 ei)>ei)			syll_augment	
+:stem ei)p		epic ionic		aor1
+:suff 				
+:end en	 aor ind act 3rd sg		nu_movable	aor1
+
+:raw ei)=pen
+
+:workw ei)=pen
+:lem ei)=pon
+:prvb 				
+:aug1 ei)>ei)			syll_augment	
+:stem ei)p				aor2
+:suff 				
+:end en	 aor ind act 3rd sg		nu_movable	aor2
+
+:raw ei)=pen
+
+:workw ei)=pen
+:lem ei)=pon
+:prvb 				
+:aug1 				
+:stem ei)p		epic ionic	syll_augment unaugmented	aor1
+:suff 				
+:end en	 aor ind act 3rd sg		nu_movable	aor1
+
+:raw ei)=pen
+
+:workw ei)=pen
+:lem ei)=pon
+:prvb 				
+:aug1 				
+:stem ei)p			syll_augment unaugmented	aor2
+:suff 				
+:end en	 aor ind act 3rd sg		nu_movable	aor2
+-----------------------------

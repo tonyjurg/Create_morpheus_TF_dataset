@@ -1,0 +1,654 @@
+greekWord,louwNidaDomain,gloss,function,morph,trans
+[NOT_FOUND:*a*g*n*w*s*t*w],N/A,N/A,N/A,N/A,N/A
+[NOT_FOUND:*a*n*a*q*e*m*a],N/A,N/A,N/A,N/A,N/A
+Αἰνών,N/A,N/A,N/A,N/A,N/A
+[NOT_FOUND:*b*a*b*u*l*w*n],N/A,N/A,N/A,N/A,N/A
+[NOT_FOUND:*b*a*s*i*l*e*u*s],N/A,N/A,N/A,N/A,N/A
+[NOT_FOUND:*b*a*s*i*l*e*w*n],N/A,N/A,N/A,N/A,N/A
+[NOT_FOUND:*b*d*e*l*u*g*m*a*t*w*n],N/A,N/A,N/A,N/A,N/A
+Βάαλ,N/A,N/A,N/A,N/A,N/A
+Βαλάκ,N/A,N/A,N/A,N/A,N/A
+Βαλαάμ,N/A,N/A,N/A,N/A,N/A
+Βαράκ,N/A,N/A,N/A,N/A,N/A
+Βαραββᾶν,93.59,Barabbas,PreC,N-ASM,Barabbas
+Βαραββᾶς,93.59,Barabbas,PreC,N-NSM,Barabbas
+Βαριησοῦς,93.63,Bar-Jesus,PreC,N-NSM,[was] Bar-Jesus
+Βαριωνᾶ,93.64,Bar-Jonas,N/A,N-PRI,Barjona
+Βαρσαββᾶν,93.66a,Barsabbas,PreC,N-ASM,Barsabbas
+Βαρτιμαῖος,93.67,Bartimaeus,N/A,N-NSM,Bartimaeus
+Βεελζεβούλ,N/A,N/A,N/A,N/A,N/A
+Βελιάρ,N/A,N/A,N/A,N/A,N/A
+Βενιαμείν,N/A,N/A,N/A,N/A,N/A
+Βερνίκη,N/A,N/A,N/A,N/A,N/A
+Βερνίκης,N/A,N/A,N/A,N/A,N/A
+Βεώρ,N/A,N/A,N/A,N/A,N/A
+Βηθανίαν,N/A,N/A,N/A,N/A,N/A
+Βηθζαθά,N/A,N/A,N/A,N/A,N/A
+Βηθλέεμ,N/A,N/A,N/A,N/A,N/A
+Βηθσαϊδά,N/A,N/A,N/A,N/A,N/A
+Βηθσαϊδάν,N/A,N/A,N/A,N/A,N/A
+Βηθφαγή,N/A,N/A,N/A,N/A,N/A
+Βοανηργές,N/A,N/A,N/A,N/A,N/A
+[NOT_FOUND:*g*h*s],N/A,N/A,N/A,N/A,N/A
+Γάδ,N/A,N/A,N/A,N/A,N/A
+Γέγοναν,N/A,N/A,N/A,N/A,N/A
+Γαββαθα,93.437,Gabbatha,PreC,N-PRI,Gabbatha
+Γαβριήλ,N/A,N/A,N/A,N/A,N/A
+Γαμαλιήλ,N/A,N/A,N/A,N/A,N/A
+Γεθσημανεί,N/A,N/A,N/A,N/A,N/A
+Γεννησαρέτ,N/A,N/A,N/A,N/A,N/A
+Γολγοθᾶ,93.453,Golgotha,N/A,N-PRI,Golgotha
+Γολγοθᾶν,93.453,Golgotha,N/A,N-ASF,Golgotha
+Γομόρρας,N/A,N/A,N/A,N/A,N/A
+Γομόρρων,N/A,N/A,N/A,N/A,N/A
+Γόμορρα,N/A,N/A,N/A,N/A,N/A
+Γώγ,N/A,N/A,N/A,N/A,N/A
+Δάμαρις,N/A,N/A,N/A,N/A,N/A
+Δαλμανουθά,N/A,N/A,N/A,N/A,N/A
+Δανιήλ,N/A,N/A,N/A,N/A,N/A
+Δημᾶς,93.92,Demas,N/A,N-NSM,Demas
+Δι’,89.26,"through, (with gen.); on account of, because of, (with acc.);",N/A,PREP,For
+Δρουσίλλῃ,N/A,N/A,N/A,N/A,N/A
+Εὐλογημένη,N/A,N/A,N/A,N/A,N/A
+Εὐλογημένος,N/A,N/A,N/A,N/A,N/A
+Εὕαν,93.128,Eve,Objc,N-ASF,Eve
+Ζαβουλών,N/A,N/A,N/A,N/A,N/A
+Ζαρά,N/A,N/A,N/A,N/A,N/A
+Ζοροβάβελ,N/A,N/A,N/A,N/A,N/A
+Ζοροβαβέλ,N/A,N/A,N/A,N/A,N/A
+Η,92.24,the,N/A,T-NSF,the
+[NOT_FOUND:*q*e*w],N/A,N/A,N/A,N/A,N/A
+Θάμαρ,N/A,N/A,N/A,N/A,N/A
+Θάρα,N/A,N/A,N/A,N/A,N/A
+Θευδᾶς,93.154,Theudas,Subj,N-NSM,Theudas
+Θυατείροις,N/A,N/A,N/A,N/A,N/A
+Θυατείρων,N/A,N/A,N/A,N/A,N/A
+[NOT_FOUND:*i*h*s*o*u*s],N/A,N/A,N/A,N/A,N/A
+[NOT_FOUND:*i*o*u*d*a*i*w*n],N/A,N/A,N/A,N/A,N/A
+[NOT_FOUND:*k*a*i],N/A,N/A,N/A,N/A,N/A
+[NOT_FOUND:*k*u*r*i*o*s],N/A,N/A,N/A,N/A,N/A
+[NOT_FOUND:*k*u*r*i*w*n],N/A,N/A,N/A,N/A,N/A
+Κάθου,N/A,N/A,N/A,N/A,N/A
+Κάρπῳ,N/A,N/A,N/A,N/A,N/A
+Καισάριαν,N/A,N/A,N/A,N/A,N/A
+Κανά,N/A,N/A,N/A,N/A,N/A
+Κατ’,67.33,"(with gen.) down, against; (with acc.) according to, along",N/A,PREP,At
+Καϊάφα,N/A,N/A,N/A,N/A,N/A
+Καϊάφαν,N/A,N/A,N/A,N/A,N/A
+Καϊάφας,N/A,N/A,N/A,N/A,N/A
+Καϊνάμ,N/A,N/A,N/A,N/A,N/A
+Κείς,N/A,N/A,N/A,N/A,N/A
+Κενχρεαῖς,93.499,Cenchreae,N/A,N-DPF,Cenchrea
+Κηφᾶ,93.211,Cephas,PreC,N-GSM,of Cephas
+Κηφᾶν,93.211,Cephas,Objc,N-ASM,Cephas
+Κηφᾷ,93.211,Cephas,Cmpl,N-DSM,to Cephas
+Κλήμεντος,N/A,N/A,N/A,N/A,N/A
+Κλαυδία,N/A,N/A,N/A,N/A,N/A
+Κλαῦδα,93.497,"Cauda, Clauda",PreC,N-PRI,Cauda
+Κλεοπᾶς,93.215,Cleopas,PreC,N-NSM,Cleopas
+Κλωπᾶ,93.217,Clopas,N/A,N-GSM,of Clopas
+Κολοσσαῖς,93.504,Colossae,N/A,N-DPF,Colossae
+Κούαρτος,N/A,N/A,N/A,N/A,N/A
+Κρήσκης,N/A,N/A,N/A,N/A,N/A
+Κυρηνίου,N/A,N/A,N/A,N/A,N/A
+Κωσάμ,N/A,N/A,N/A,N/A,N/A
+Κἀγώ,N/A,N/A,N/A,N/A,N/A
+Κἀκεῖ,N/A,"and there, and yonder",Adv,ADV-K,And there
+Κἀκεῖθεν,84.10,"and thence, and from there",Adv,ADV-K,From there
+Κἀμέ,N/A,N/A,N/A,N/A,N/A
+Λάμεχ,N/A,N/A,N/A,N/A,N/A
+Λαοδικίαν,N/A,N/A,N/A,N/A,N/A
+Λαοδικίας,N/A,N/A,N/A,N/A,N/A
+Λαοδικίᾳ,N/A,N/A,N/A,N/A,N/A
+Λεγιών,N/A,N/A,N/A,N/A,N/A
+Λευεί,N/A,N/A,N/A,N/A,N/A
+Λευείν,N/A,N/A,N/A,N/A,N/A
+Λευείς,N/A,N/A,N/A,N/A,N/A
+Λευειτικῆς,53.92,Levitical,N/A,A-GSF,Levitical
+Λυκαονιστί,N/A,N/A,N/A,N/A,N/A
+Λωΐδι,N/A,N/A,N/A,N/A,N/A
+Λύδδα,N/A,N/A,N/A,N/A,N/A
+Λύδδας,N/A,N/A,N/A,N/A,N/A
+Λύστροις,N/A,N/A,N/A,N/A,N/A
+Λώτ,N/A,N/A,N/A,N/A,N/A
+[NOT_FOUND:*m*e*g*a*l*h],N/A,N/A,N/A,N/A,N/A
+[NOT_FOUND:*m*h*t*h*r],N/A,N/A,N/A,N/A,N/A
+Μαάθ,N/A,N/A,N/A,N/A,N/A
+Μαγαδάν,N/A,N/A,N/A,N/A,N/A
+Μαγώγ,N/A,N/A,N/A,N/A,N/A
+Μαδιάμ,N/A,N/A,N/A,N/A,N/A
+Μαθθάν,N/A,N/A,N/A,N/A,N/A
+Μαθθάτ,N/A,N/A,N/A,N/A,N/A
+Μαθουσαλά,N/A,N/A,N/A,N/A,N/A
+Μαλελεήλ,N/A,N/A,N/A,N/A,N/A
+Μαναήν,N/A,N/A,N/A,N/A,N/A
+Μαρίαν,N/A,N/A,N/A,N/A,N/A
+Μαριάν,N/A,N/A,N/A,N/A,N/A
+Ματθάτ,N/A,N/A,N/A,N/A,N/A
+Ματταθά,N/A,N/A,N/A,N/A,N/A
+Μεθ’,89.108,"(with gen.) with; (with acc.) after, behind",N/A,PREP,With
+Μελεά,N/A,N/A,N/A,N/A,N/A
+Μελχεί,N/A,N/A,N/A,N/A,N/A
+Μελχισέδεκ,N/A,N/A,N/A,N/A,N/A
+Μεννά,N/A,N/A,N/A,N/A,N/A
+Μεσσίαν,N/A,N/A,N/A,N/A,N/A
+Μεσσίας,N/A,N/A,N/A,N/A,N/A
+Μιχαήλ,N/A,N/A,N/A,N/A,N/A
+Μολόχ,N/A,N/A,N/A,N/A,N/A
+Μωσῆς,93.266,Moses,Subj,N-NSM,Moses
+[NOT_FOUND:*n*a*z*w*r*a*i*o*s],N/A,N/A,N/A,N/A,N/A
+Ναασσών,N/A,N/A,N/A,N/A,N/A
+Ναγγαί,N/A,N/A,N/A,N/A,N/A
+Ναζαρά,N/A,N/A,N/A,N/A,N/A
+Ναζαρέθ,N/A,N/A,N/A,N/A,N/A
+Ναζαρέτ,N/A,N/A,N/A,N/A,N/A
+Ναθάμ,N/A,N/A,N/A,N/A,N/A
+Ναθαναήλ,N/A,N/A,N/A,N/A,N/A
+Ναιμάν,N/A,N/A,N/A,N/A,N/A
+Ναούμ,N/A,N/A,N/A,N/A,N/A
+Νεφθαλείμ,N/A,N/A,N/A,N/A,N/A
+Νικολαϊτῶν,93.282,Nicolaitan,N/A,N-GPM,Nicolaitans
+Νινευείταις,N/A,N/A,N/A,N/A,N/A
+Νινευεῖται,93.544,Ninevite,N/A,N-NPM,of Nineveh
+Νῶε,93.285,Noah,N/A,N-PRI,of Noah
+Ο,92.24,the,N/A,T-NSM,the
+[NOT_FOUND:*o*u*t*o*s],N/A,N/A,N/A,N/A,N/A
+Οὐρβανόν,N/A,N/A,N/A,N/A,N/A
+[NOT_FOUND:*p*o*r*n*w*n],N/A,N/A,N/A,N/A,N/A
+Πέσατε,N/A,N/A,N/A,N/A,N/A
+Παρμενᾶν,93.292,Parmenas,N/A,N-ASM,Parmenas
+Πατρόβαν,N/A,N/A,N/A,N/A,N/A
+Πισιδίαν,N/A,N/A,N/A,N/A,N/A
+Ποταπός,N/A,N/A,N/A,N/A,N/A
+Πούδης,N/A,N/A,N/A,N/A,N/A
+Πρίσκα,N/A,N/A,N/A,N/A,N/A
+Πρίσκαν,N/A,N/A,N/A,N/A,N/A
+Πρίσκιλλα,N/A,N/A,N/A,N/A,N/A
+Πρίσκιλλαν,N/A,N/A,N/A,N/A,N/A
+Σάρεπτα,N/A,N/A,N/A,N/A,N/A
+Σήμ,N/A,N/A,N/A,N/A,N/A
+Σαδώκ,N/A,N/A,N/A,N/A,N/A
+Σαλήμ,N/A,N/A,N/A,N/A,N/A
+Σαλαθιήλ,N/A,N/A,N/A,N/A,N/A
+Σαλείμ,N/A,N/A,N/A,N/A,N/A
+Σαλμών,N/A,N/A,N/A,N/A,N/A
+Σαμάρια,N/A,N/A,N/A,N/A,N/A
+Σαμάριαν,N/A,N/A,N/A,N/A,N/A
+Σαμαρίας,N/A,N/A,N/A,N/A,N/A
+Σαμαρίᾳ,N/A,N/A,N/A,N/A,N/A
+Σαμουήλ,N/A,N/A,N/A,N/A,N/A
+Σαπφείρῃ,N/A,N/A,N/A,N/A,N/A
+Σαρῶνα,93.575,Sharon,N/A,N-ASM,Sharon
+Σατανᾶν,12.34 93.330,"Satan, the Adversary",N/A,N-ASM,Satan
+Σατανᾷ,12.34 93.330,"Satan, the Adversary",N/A,N-DSM,to Satan
+Σελεύκιαν,N/A,N/A,N/A,N/A,N/A
+Σεμεείν,N/A,N/A,N/A,N/A,N/A
+Σερούχ,N/A,N/A,N/A,N/A,N/A
+Σιλωάμ,N/A,N/A,N/A,N/A,N/A
+Σιλᾶς,93.339,Silas,N/A,N-NSM,Silas
+Σιών,N/A,N/A,N/A,N/A,N/A
+Σοδόμοις,N/A,N/A,N/A,N/A,N/A
+Σοδόμων,N/A,N/A,N/A,N/A,N/A
+Σολομῶν,93.344,Solomon,Subj,N-NSM,Solomon
+Σολομῶντος,93.344,Solomon,PreC,N-GSM,Solomon’s
+Σουσάννα,N/A,N/A,N/A,N/A,N/A
+Στεφανᾶ,93.347,Stephanas,N/A,N-GSM,of Stephanas
+Συνμιμηταί,N/A,N/A,N/A,N/A,N/A
+Συντύχην,N/A,N/A,N/A,N/A,N/A
+Συροφοινίκισσα,N/A,N/A,N/A,N/A,N/A
+Συχάρ,N/A,N/A,N/A,N/A,N/A
+Συχέμ,N/A,N/A,N/A,N/A,N/A
+[NOT_FOUND:*t*h*s],N/A,N/A,N/A,N/A,N/A
+[NOT_FOUND:*t*w*n],N/A,N/A,N/A,N/A,N/A
+Τέρτιος,N/A,N/A,N/A,N/A,N/A
+Τέρτυλλος,N/A,N/A,N/A,N/A,N/A
+Ταβειθά,N/A,N/A,N/A,N/A,N/A
+Ταβερνῶν,7.11,taverns,N/A,N-GPF,Taverns
+Ταλιθά,N/A,N/A,N/A,N/A,N/A
+Τερτύλλου,N/A,N/A,N/A,N/A,N/A
+Φάλεκ,N/A,N/A,N/A,N/A,N/A
+Φανουήλ,N/A,N/A,N/A,N/A,N/A
+Φαρές,N/A,N/A,N/A,N/A,N/A
+Φαραώ,N/A,N/A,N/A,N/A,N/A
+Φορτουνάτου,N/A,N/A,N/A,N/A,N/A
+Φύγελος,N/A,N/A,N/A,N/A,N/A
+[NOT_FOUND:*x*r*i*s*t*o*s],N/A,N/A,N/A,N/A,N/A
+Χανάαν,N/A,N/A,N/A,N/A,N/A
+Χαρράν,N/A,N/A,N/A,N/A,N/A
+Χερουβείν,N/A,N/A,N/A,N/A,N/A
+Χοραζείν,N/A,N/A,N/A,N/A,N/A
+Χουζᾶ,93.386,Chuza,N/A,N-GSM,of Chuza
+βατταλογήσητε,N/A,N/A,N/A,N/A,N/A
+βραδύτητα,N/A,N/A,N/A,N/A,N/A
+γέγοναν,N/A,N/A,N/A,N/A,N/A
+γαμίσκονται,N/A,N/A,N/A,N/A,N/A
+γνοῖ,28.1,"know, learn",Pred,V-2AAS-3S,should know
+δανιστῇ,57.211,"lender, creditor",N/A,N-DSM,to a creditor
+δεκατέσσαρες,N/A,N/A,N/A,N/A,N/A
+δεκατεσσάρων,N/A,N/A,N/A,N/A,N/A
+διακαθᾶραι,79.51,cleanse thoroughly,Pred,V-AAN,to clear
+διαλλάγηθι,N/A,N/A,N/A,N/A,N/A
+διηνοιγμένους,N/A,N/A,N/A,N/A,N/A
+διοπετοῦς,2.48,fallen from the sky,N/A,A-GSM,fallen from the sky
+δισμυριάδες,N/A,N/A,N/A,N/A,N/A
+διψᾷ,25.17,"thirst for, desire earnestly, thirst",Pred,V-PAS-3S,thirsts
+δι’,84.29,"through, (with gen.); on account of, because of, (with acc.);",N/A,PREP,by
+δοῖ,57.71,"offer, give",Pred,V-2AAS-3S,shall give
+δῴη,90.51,"offer, give",Pred,V-2AAO-3S,may He give
+δ’,89.124,"but, and",N/A,CONJ,now
+εἰδέα,N/A,N/A,N/A,N/A,N/A
+εἰκοσιτρεῖς,N/A,twenty,N/A,A-NPF,twenty
+εἰλικρινίας,N/A,N/A,N/A,N/A,N/A
+εἰλικρινίᾳ,N/A,N/A,N/A,N/A,N/A
+εἰσελήλυθαν,N/A,N/A,N/A,N/A,N/A
+εἱλκωμένος,N/A,N/A,N/A,N/A,N/A
+εἴδαμεν,24.1,"see, look upon",Pred,V-2AAI-1P,did we see
+εἴρηκαν,33.69,"say, speak",Pred,V-RAI-3P-ATT,they said
+εἴχαμεν,90.65,"have, hold",Pred,V-IAI-1P,we have had
+εἴχοσαν,90.65,"have, hold",Pred,V-IAI-3P,they would have had
+εἶδαν,24.1,"see, look upon",Pred,V-2AAI-3P,saw
+εἶτεν,67.44,"then, thereafter, next",Adv,ADV,then
+εἶχαν,57.1,"have, hold",Pred,V-IAI-3P,they had
+εὐαγγελίσαι,N/A,N/A,N/A,N/A,N/A
+εὐαρεστηκέναι,N/A,N/A,N/A,N/A,N/A
+εὐηγγέλισεν,N/A,N/A,N/A,N/A,N/A
+εὐηγγελίσατο,N/A,N/A,N/A,N/A,N/A
+εὐηγγελίσθη,N/A,N/A,N/A,N/A,N/A
+εὐηγγελισάμεθα,N/A,N/A,N/A,N/A,N/A
+εὐηγγελισάμην,N/A,N/A,N/A,N/A,N/A
+εὐλογημένοι,N/A,N/A,N/A,N/A,N/A
+εὐλογημένος,N/A,N/A,N/A,N/A,N/A
+εὐλόγηκεν,N/A,N/A,N/A,N/A,N/A
+θρησκός,N/A,N/A,N/A,N/A,N/A
+κάθου,N/A,N/A,N/A,N/A,N/A
+κήρυξ,N/A,N/A,N/A,N/A,N/A
+καίγε,N/A,N/A,N/A,N/A,N/A
+καθ’,90.31,"(with gen.) down, against; (with acc.) according to, along",N/A,PREP,against
+κατήγωρ,N/A,N/A,N/A,N/A,N/A
+καταλειπόντες,N/A,N/A,N/A,N/A,N/A
+κατασκηνοῖν,6.147,"encamp, tabernacle, dwell",Pred,V-PAN,perch
+κατελήμφθην,N/A,N/A,N/A,N/A,N/A
+κατ’,N/A,"(with gen.) down, against; (with acc.) according to, along",N/A,PREP,in
+κεκοπίακες,N/A,N/A,N/A,N/A,N/A
+κολακίας,N/A,N/A,N/A,N/A,N/A
+κούμ,N/A,N/A,N/A,N/A,N/A
+κράβαττον,N/A,N/A,N/A,N/A,N/A
+κραβάττοις,N/A,N/A,N/A,N/A,N/A
+κραβάττου,N/A,N/A,N/A,N/A,N/A
+κραβάττων,N/A,N/A,N/A,N/A,N/A
+κρᾶζον,33.83,"cry out, cry, call out",Pred,V-PAP-ASN,crying out
+κυβίᾳ,N/A,N/A,N/A,N/A,N/A
+λήμψεσθε,N/A,N/A,N/A,N/A,N/A
+λήμψεται,N/A,N/A,N/A,N/A,N/A
+λήμψεως,N/A,N/A,N/A,N/A,N/A
+λήμψονται,N/A,N/A,N/A,N/A,N/A
+λίμμα,N/A,N/A,N/A,N/A,N/A
+λεγιῶνα,93.229,"legion, very large number",N/A,N-ASM,legion
+λεγιῶνας,55.8,"legion, very large number",N/A,N-APF,legions
+λελουσμένοι,N/A,N/A,N/A,N/A,N/A
+λεμά,N/A,N/A,N/A,N/A,N/A
+λευκᾶναι,79.28,whiten,Pred,V-AAN,to whiten
+λημψόμεθα,N/A,N/A,N/A,N/A,N/A
+μήγε,N/A,N/A,N/A,N/A,N/A
+μήτιγε,N/A,N/A,N/A,N/A,N/A
+μαγίαις,N/A,N/A,N/A,N/A,N/A
+μαμωνᾶ,57.34,"riches, money, possessions",N/A,N-GSM,wealth
+μαμωνᾷ,57.34,"riches, money, possessions",Objc,N-DSM,money
+μεθ’,89.108,"(with gen.) with; (with acc.) after, behind",N/A,PREP,with
+μεμιαμμένοις,N/A,N/A,N/A,N/A,N/A
+μενοῦνγε,89.128,nay rather,N/A,PRT,but rather
+μετάλημψιν,N/A,N/A,N/A,N/A,N/A
+μετ’,89.108,"(with gen.) with; (with acc.) after, behind",N/A,PREP,with
+μηδ’,69.7,"and not, but not",N/A,CONJ-N,not
+μητρολῴαις,20.87,matricide,N/A,N-DPM,murderers of mothers
+μωρανθῇ,79.44,"make foolish, taint, make useless",Pred,V-APS-3S,becomes tasteless
+νοσσία,N/A,N/A,N/A,N/A,N/A
+νοσσιάν,N/A,N/A,N/A,N/A,N/A
+νοσσούς,N/A,N/A,N/A,N/A,N/A
+οὐδ’,69.7,"neither, nor,  and not",N/A,CONJ-N,no
+πέπτωκες,N/A,N/A,N/A,N/A,N/A
+πέπωκαν,N/A,N/A,N/A,N/A,N/A
+παλινγενεσίας,N/A,N/A,N/A,N/A,N/A
+παλινγενεσίᾳ,N/A,N/A,N/A,N/A,N/A
+πανδοχεῖ,7.12,innkeeper,N/A,N-DSM,innkeeper
+πανδοχεῖον,7.11,inn,N/A,N-ASN,an inn
+πανοικεί,N/A,N/A,N/A,N/A,N/A
+πανπληθεί,N/A,N/A,N/A,N/A,N/A
+παραλήμψομαι,N/A,N/A,N/A,N/A,N/A
+παραλημφθήσεται,N/A,N/A,N/A,N/A,N/A
+παρεῖχαν,90.91,"offer, provide, give, cause",Pred,V-IAI-3P,were showing
+παρ’,90.14,"(with gen.) from; (with dat.) at, by; (with acc.) by, near",N/A,PREP,of
+πατρολῴαις,20.88,murderer of his father,N/A,N-DPM,for murderers of fathers
+πεινᾷ,23.29,"am hungry, hunger, needy",Pred,V-PAS-3S,should hunger
+πεῖν,23.34,drink,Pred,V-2AAN,to drink
+πλοός,N/A,N/A,N/A,N/A,N/A
+ποιμάνατε,N/A,N/A,N/A,N/A,N/A
+ποιμανεῖ,36.2,"shepherd, tend, pasture",Pred,V-FAI-3S,will shepherd
+ποταπή,N/A,N/A,N/A,N/A,N/A
+ποταπήν,N/A,N/A,N/A,N/A,N/A
+ποταπαί,N/A,N/A,N/A,N/A,N/A
+ποταποί,N/A,N/A,N/A,N/A,N/A
+ποταπούς,N/A,N/A,N/A,N/A,N/A
+ποταπός,N/A,N/A,N/A,N/A,N/A
+πραΰτης,N/A,N/A,N/A,N/A,N/A
+πραΰτητα,N/A,N/A,N/A,N/A,N/A
+πραΰτητι,N/A,N/A,N/A,N/A,N/A
+πραΰτητος,N/A,N/A,N/A,N/A,N/A
+πραϋπαθίαν,N/A,N/A,N/A,N/A,N/A
+προευηγγελίσατο,N/A,N/A,N/A,N/A,N/A
+προλημφθῇ,27.33,"take before, anticipate, am overtaken",Pred,V-APS-3S,should be overcome
+προσωπολήμπτης,N/A,N/A,N/A,N/A,N/A
+προσωπολημπτεῖτε,88.238,show partiality,Pred,V-PAI-2P,you show partiality
+προσωπολημψία,N/A,N/A,N/A,N/A,N/A
+προσωπολημψίαις,N/A,N/A,N/A,N/A,N/A
+πρόσλημψις,N/A,N/A,N/A,N/A,N/A
+πρόϊμον,N/A,N/A,N/A,N/A,N/A
+σάββασιν,N/A,N/A,N/A,N/A,N/A
+σαβαχθανεί,N/A,N/A,N/A,N/A,N/A
+σαββάτου,N/A,N/A,N/A,N/A,N/A
+σαββάτων,N/A,N/A,N/A,N/A,N/A
+σαββάτῳ,N/A,N/A,N/A,N/A,N/A
+σαββατισμός,N/A,N/A,N/A,N/A,N/A
+σαλπιστῶν,6.91,trumpeter,N/A,N-GPM,trumpeters
+συλλήμψῃ,N/A,N/A,N/A,N/A,N/A
+συλλημφθέντα,N/A,N/A,N/A,N/A,N/A
+συλλημφθῆναι,23.49,"seize, conceive, apprehend, become pregnant",Pred,V-APN,was conceived
+συνέχυννεν,N/A,N/A,N/A,N/A,N/A
+συνίουσιν,N/A,N/A,N/A,N/A,N/A
+συνγνώμην,N/A,N/A,N/A,N/A,N/A
+συνζήσομεν,N/A,N/A,N/A,N/A,N/A
+συνζητεῖν,33.157,"seek together, discuss",Pred,V-PAN,to question
+συνζητεῖτε,33.440,"seek together, discuss",Pred,V-PAI-2P,are you disputing
+συνζητητής,N/A,N/A,N/A,N/A,N/A
+συνζητούντων,N/A,N/A,N/A,N/A,N/A
+συνζητοῦντας,33.440,"seek together, discuss",Pred,V-PAP-APM,arguing
+συνζητοῦντες,33.157,"seek together, discuss",Pred,V-PAP-NPM,questioning
+συνζῆν,23.96,live together with,N/A,V-PAN,to live together
+συνθλασθήσεται,N/A,N/A,N/A,N/A,N/A
+συνκαθήμενοι,N/A,N/A,N/A,N/A,N/A
+συνκαθήμενος,N/A,N/A,N/A,N/A,N/A
+συνκατάθεσις,N/A,N/A,N/A,N/A,N/A
+συνκαταβάντες,N/A,N/A,N/A,N/A,N/A
+συνκατατεθειμένος,N/A,N/A,N/A,N/A,N/A
+συνκατεψηφίσθη,N/A,N/A,N/A,N/A,N/A
+συνκληρονόμα,N/A,N/A,N/A,N/A,N/A
+συνκληρονόμοι,N/A,N/A,N/A,N/A,N/A
+συνκληρονόμοις,N/A,N/A,N/A,N/A,N/A
+συνκληρονόμων,N/A,N/A,N/A,N/A,N/A
+συνκοινωνούς,N/A,N/A,N/A,N/A,N/A
+συνκοινωνός,N/A,N/A,N/A,N/A,N/A
+συνμέτοχα,N/A,N/A,N/A,N/A,N/A
+συνμέτοχοι,N/A,N/A,N/A,N/A,N/A
+συνμαθηταῖς,36.42,fellow-disciple,N/A,N-DPM,fellow disciples
+συνπαραγενόμενοι,N/A,N/A,N/A,N/A,N/A
+συνπαραλαβεῖν,15.169,take along as a companion,Pred,V-2AAN,to take along
+συνπαραλαβόντες,N/A,N/A,N/A,N/A,N/A
+συνπαραλαβών,N/A,N/A,N/A,N/A,N/A
+συνπαραλαμβάνειν,N/A,N/A,N/A,N/A,N/A
+συνπαρόντες,N/A,N/A,N/A,N/A,N/A
+συνπολῖται,11.72,fellow citizen,N/A,N-NPM,fellow citizens
+συνπρεσβύτερος,N/A,N/A,N/A,N/A,N/A
+συνσταυρωθέντες,N/A,N/A,N/A,N/A,N/A
+συνσταυρωθέντος,N/A,N/A,N/A,N/A,N/A
+συνστενάζει,N/A,N/A,N/A,N/A,N/A
+συνστοιχεῖ,58.68,correspond to,Pred,V-PAI-3S,she corresponds
+συνστρατιώτην,N/A,N/A,N/A,N/A,N/A
+συνσχηματίζεσθε,N/A,N/A,N/A,N/A,N/A
+συνχύννεται,N/A,N/A,N/A,N/A,N/A
+σύνζυγε,N/A,N/A,N/A,N/A,N/A
+σύνσωμα,N/A,N/A,N/A,N/A,N/A
+σύνψυχοι,N/A,N/A,N/A,N/A,N/A
+τάχειον,N/A,N/A,N/A,N/A,N/A
+τέτυχεν,N/A,N/A,N/A,N/A,N/A
+τεσσερακονταέτης,N/A,N/A,N/A,N/A,N/A
+τεσσερακονταετῆ,67.172,forty years of age,N/A,A-ASM,forty years
+τετήρηκαν,N/A,N/A,N/A,N/A,N/A
+τετραάρχης,N/A,N/A,N/A,N/A,N/A
+τετραάρχου,N/A,N/A,N/A,N/A,N/A
+τετρααρχοῦντος,37.79,rule over as a tetrarch,Pred,V-PAP-GSM,being tetrarch
+τοπάζιον,N/A,N/A,N/A,N/A,N/A
+τοῦτ’,89.106,"this, he, she, it",Subj,D-NSN,That
+τραπεζείταις,N/A,N/A,N/A,N/A,N/A
+τυφωνικός,N/A,N/A,N/A,N/A,N/A
+φαρμακίᾳ,N/A,N/A,N/A,N/A,N/A
+φαρμακιῶν,N/A,"magic, sorcery, enchantment",N/A,N-GPF,sorceries
+φελόνην,N/A,N/A,N/A,N/A,N/A
+φορέσωμεν,N/A,N/A,N/A,N/A,N/A
+χρεοφειλέται,N/A,N/A,N/A,N/A,N/A
+χρεοφειλετῶν,57.222,debtor,N/A,N-GPM,debtors
+χρυσᾶν,2.50,golden,N/A,A-ASF,golden
+ἀλλοτριεπίσκοπος,N/A,N/A,N/A,N/A,N/A
+ἀλλ’,89.125,"but, rather, yet",N/A,CONJ,but
+ἀμνοῦ,4.24,lamb,N/A,N-GSM,of a lamb
+ἀναιδίαν,N/A,N/A,N/A,N/A,N/A
+ἀναλημφθείς,N/A,N/A,N/A,N/A,N/A
+ἀναπαήσονται,N/A,N/A,N/A,N/A,N/A
+ἀνελήμφθη,N/A,N/A,N/A,N/A,N/A
+ἀνεξεραύνητα,N/A,N/A,N/A,N/A,N/A
+ἀνεπίλημπτοι,N/A,N/A,N/A,N/A,N/A
+ἀνεπίλημπτον,N/A,N/A,N/A,N/A,N/A
+ἀνεῳχθῆναι,79.110,open,Pred,V-APN,was opened
+ἀνθ’,89.24,"(with gen.) in place of, for, instead of",N/A,PREP,in return for
+ἀντιλήμψεις,N/A,N/A,N/A,N/A,N/A
+ἀπάρτι,N/A,N/A,N/A,N/A,N/A
+ἀπεκατέστη,N/A,N/A,N/A,N/A,N/A
+ἀπεκατεστάθη,N/A,N/A,N/A,N/A,N/A
+ἀποδεκατοῖν,57.115,"take off a tenth part, pay tithe",Pred,V-PAN,to take a tenth
+ἀποκτέννεσθαι,N/A,N/A,N/A,N/A,N/A
+ἀποκτέννοντες,N/A,N/A,N/A,N/A,N/A
+ἀποκτεννόντων,N/A,N/A,N/A,N/A,N/A
+ἀπολήμψεσθε,N/A,N/A,N/A,N/A,N/A
+ἀποστάσιον,N/A,N/A,N/A,N/A,N/A
+ἀπροσωπολήμπτως,N/A,N/A,N/A,N/A,N/A
+ἀπόδεκτον,N/A,N/A,N/A,N/A,N/A
+ἀπ’,89.122,"(with gen.) from, away from",N/A,PREP,from
+ἀρτέμωνα,N/A,N/A,N/A,N/A,N/A
+ἀφίδω,N/A,N/A,N/A,N/A,N/A
+ἀφίομεν,N/A,N/A,N/A,N/A,N/A
+ἀφίουσιν,N/A,N/A,N/A,N/A,N/A
+ἀφεῖς,13.140,"leave, let go, pardon",Pred,V-PAI-2S,you tolerate
+ἀφ’,N/A,"(with gen.) from, away from",N/A,PREP,from
+ἄραγε,N/A,"then, therefore, since, so",N/A,PRT,Then surely
+ἄραφος,48.6,"not sewed, seamless",PreC,A-NSM,seamless
+Ἀβαδδών,N/A,N/A,N/A,N/A,N/A
+Ἀβιά,N/A,N/A,N/A,N/A,N/A
+Ἀβιαθάρ,N/A,N/A,N/A,N/A,N/A
+Ἀβιληνῆς,93.389,Abilene,N/A,N-GSF,of Abilene
+Ἀβιούδ,N/A,N/A,N/A,N/A,N/A
+Ἀδδεί,N/A,N/A,N/A,N/A,N/A
+Ἀδμείν,N/A,N/A,N/A,N/A,N/A
+Ἀζώρ,N/A,N/A,N/A,N/A,N/A
+Ἀκελδαμάχ,N/A,N/A,N/A,N/A,N/A
+Ἀλεξανδρινῷ,93.403,Alexandrian,N/A,A-DSN,Alexandrian
+Ἀλεξανδρῖνον,93.403,Alexandrian,N/A,A-ASN,of Alexandria
+Ἀλλ’,89.125,"but, rather, yet",N/A,CONJ,But
+Ἀλφαίου,N/A,N/A,N/A,N/A,N/A
+Ἀμιναδάβ,N/A,N/A,N/A,N/A,N/A
+Ἀμπλιᾶτον,93.21,Ampliatus,N/A,N-ASM,Ampliatus
+Ἀντιπᾶς,93.29,Antipas,N/A,N-NSM,of Antipas
+Ἀπέσταλκαν,N/A,N/A,N/A,N/A,N/A
+Ἀπφίᾳ,N/A,N/A,N/A,N/A,N/A
+Ἀράμ,N/A,N/A,N/A,N/A,N/A
+Ἀρεοπαγείτης,N/A,N/A,N/A,N/A,N/A
+Ἀριμαθαίας,N/A,N/A,N/A,N/A,N/A
+Ἀρνεί,N/A,N/A,N/A,N/A,N/A
+Ἀρτεμᾶν,93.42,Artemas,N/A,N-ASM,Artemas
+Ἀρφαξάδ,N/A,N/A,N/A,N/A,N/A
+Ἀσάφ,N/A,N/A,N/A,N/A,N/A
+Ἀσήρ,N/A,N/A,N/A,N/A,N/A
+Ἀσύνκριτον,N/A,N/A,N/A,N/A,N/A
+Ἀτταλίαν,N/A,N/A,N/A,N/A,N/A
+Ἀφ’,90.15,"(with gen.) from, away from",N/A,PREP,Of
+Ἀχείμ,N/A,N/A,N/A,N/A,N/A
+Ἁλληλουϊά,N/A,N/A,N/A,N/A,N/A
+Ἁλφαίου,N/A,N/A,N/A,N/A,N/A
+Ἁριμαθαίας,N/A,N/A,N/A,N/A,N/A
+Ἁρμαγεδών,N/A,N/A,N/A,N/A,N/A
+Ἄβελ,93.3,Abel,N/A,N-PRI,of Abel
+Ἄγαβος,93.8,Agabus,PreC,N-NSM,Agabus
+Ἄγαρ,93.9,Hagar,PreC,N-PRI,Hagar
+Ἄραγε,N/A,"then, therefore, since, so",N/A,PRT,Then
+Ἄχαζ,93.53,Ahaz,N/A,N-PRI,Ahaz
+Ἅβελ,93.3,Abel,N/A,N-PRI,of Abel
+Ἅγαβος,93.8,Agabus,PreC,N-NSM,Agabus
+Ἅνναν,93.28,Annas,N/A,N-ASM,Annas
+ἐγγίζει,N/A,N/A,N/A,N/A,N/A
+ἐγγίζειν,N/A,N/A,N/A,N/A,N/A
+ἐγγίζομεν,N/A,N/A,N/A,N/A,N/A
+ἐγγίζοντες,N/A,N/A,N/A,N/A,N/A
+ἐγγίζοντι,N/A,N/A,N/A,N/A,N/A
+ἐγγίζοντος,N/A,N/A,N/A,N/A,N/A
+ἐγγίζουσαν,N/A,N/A,N/A,N/A,N/A
+ἐγγίζουσιν,N/A,N/A,N/A,N/A,N/A
+ἐγγίσαι,N/A,N/A,N/A,N/A,N/A
+ἐγγίσαντος,N/A,N/A,N/A,N/A,N/A
+ἐγγίσας,N/A,N/A,N/A,N/A,N/A
+ἐγγίσατε,N/A,N/A,N/A,N/A,N/A
+ἐγγίσει,N/A,N/A,N/A,N/A,N/A
+ἐγγιζόντων,N/A,N/A,N/A,N/A,N/A
+ἐγνώκειτε,N/A,N/A,N/A,N/A,N/A
+ἐδολιοῦσαν,88.154,"act deceitfully, deceive",Pred,V-IAI-3P,they keep practicing deceit
+ἐζώννυες,N/A,N/A,N/A,N/A,N/A
+ἐθελοθρησκίᾳ,N/A,N/A,N/A,N/A,N/A
+ἐκάμμυσαν,N/A,N/A,N/A,N/A,N/A
+ἐκέκραξα,N/A,N/A,N/A,N/A,N/A
+ἐκαθερίσθη,N/A,N/A,N/A,N/A,N/A
+ἐκεφαλίωσαν,N/A,N/A,N/A,N/A,N/A
+ἐκκαθάρατε,N/A,N/A,N/A,N/A,N/A
+ἐκκαθάρῃ,N/A,N/A,N/A,N/A,N/A
+ἐκχυννόμενον,N/A,N/A,N/A,N/A,N/A
+ἐλεύκαναν,N/A,N/A,N/A,N/A,N/A
+ἐμωράνθησαν,N/A,N/A,N/A,N/A,N/A
+ἐνκαίνια,N/A,N/A,N/A,N/A,N/A
+ἐνκαθέτους,N/A,N/A,N/A,N/A,N/A
+ἐνκαταλείψεις,N/A,N/A,N/A,N/A,N/A
+ἐνκατελείφθη,N/A,N/A,N/A,N/A,N/A
+ἐνκοπήν,N/A,N/A,N/A,N/A,N/A
+ἐξαγαγέτωσαν,N/A,N/A,N/A,N/A,N/A
+ἐξεκρέμετο,N/A,N/A,N/A,N/A,N/A
+ἐξεχύννετο,N/A,N/A,N/A,N/A,N/A
+ἐπαναπαήσεται,N/A,N/A,N/A,N/A,N/A
+ἐπ’,83.46,"(with gen.) over, upon; (with dat.) on, in; (with acc.) on, against",N/A,PREP,upon
+ἐριθεῖαι,88.167,"strife, ambition, rivalry; selfishness",N/A,N-NPF,contentions
+ἐφορέσαμεν,N/A,N/A,N/A,N/A,N/A
+ἐφ’,67.136,"(with gen.) over, upon; (with dat.) on, in; (with acc.) on, against",N/A,PREP,as
+ἑλπίδι,N/A,N/A,N/A,N/A,N/A
+ἑόρακαν,N/A,N/A,N/A,N/A,N/A
+ἑώρακαν,N/A,N/A,N/A,N/A,N/A
+ἔγνωκαν,28.1,"know, learn",Pred,V-RAI-3P,they have known
+Ἐλαμεῖται,93.465,Elamite,N/A,N-NPM,Elamites
+Ἐλεάζαρ,N/A,N/A,N/A,N/A,N/A
+Ἐλεισάβετ,N/A,N/A,N/A,N/A,N/A
+Ἐλιέζερ,N/A,N/A,N/A,N/A,N/A
+Ἐλιακείμ,N/A,N/A,N/A,N/A,N/A
+Ἐλιούδ,N/A,N/A,N/A,N/A,N/A
+Ἐλμαδάμ,N/A,N/A,N/A,N/A,N/A
+Ἐλωΐ,N/A,N/A,N/A,N/A,N/A
+Ἐλύμας,N/A,N/A,N/A,N/A,N/A
+Ἐμμανουήλ,N/A,N/A,N/A,N/A,N/A
+Ἐμμαοῦς,93.467,Emmaus,PreC,N-PRI,Emmaus
+Ἐμμώρ,N/A,N/A,N/A,N/A,N/A
+Ἐνώς,N/A,N/A,N/A,N/A,N/A
+Ἐνώχ,N/A,N/A,N/A,N/A,N/A
+Ἐπ’,N/A,"(with gen.) over, upon; (with dat.) on, in; (with acc.) on, against",N/A,PREP,Of
+Ἐσλεί,N/A,N/A,N/A,N/A,N/A
+Ἐσρώμ,N/A,N/A,N/A,N/A,N/A
+Ἐφραίμ,N/A,N/A,N/A,N/A,N/A
+Ἐφφαθά,N/A,N/A,N/A,N/A,N/A
+Ἐφ’,83.46,"(with gen.) over, upon; (with dat.) on, in; (with acc.) on, against",N/A,PREP,Upon
+Ἑλισαίου,N/A,N/A,N/A,N/A,N/A
+Ἑνώχ,N/A,N/A,N/A,N/A,N/A
+Ἔβερ,93.103,Eber,N/A,N-PRI,of Heber
+ἠδυνάσθη,N/A,N/A,N/A,N/A,N/A
+ἠνεῳγμένη,N/A,N/A,N/A,N/A,N/A
+ἠνεῳγμένην,N/A,N/A,N/A,N/A,N/A
+ἠνεῳγμένον,N/A,N/A,N/A,N/A,N/A
+ἠχρεώθησαν,N/A,N/A,N/A,N/A,N/A
+ἤγγιζεν,67.21,"come near, approach",Pred,V-IAI-3S,was drawing near
+ἤγγικεν,67.21,"come near, approach",Pred,V-RAI-3S,has drawn near
+ἤγγισαν,15.75,"come near, approach",Pred,V-AAI-3P,they drew near
+ἤγγισεν,67.21,"come near, approach",Pred,V-AAI-3S,drew near
+ἤμεθα,13.69,"am, exist",PreC,V-IMI-1P,we had lived
+Ἠ,92.24,the,N/A,T-NSF,The
+Ἠλεί,N/A,N/A,N/A,N/A,N/A
+Ἠλικίαν,N/A,N/A,N/A,N/A,N/A
+Ἠμέρας,N/A,N/A,N/A,N/A,N/A
+Ἠμερῶν,67.142,day,N/A,N-GPF,Days
+Ἠμεῖς,92.4,I,Subj,P-1NP,We
+Ἠμῖν,92.4,I,Adv,P-1DP,To us
+Ἠρῳδίωνα,N/A,N/A,N/A,N/A,N/A
+Ἠρῳδιάδα,N/A,N/A,N/A,N/A,N/A
+Ἠρῳδιάδος,N/A,N/A,N/A,N/A,N/A
+Ἠρῳδιάς,N/A,N/A,N/A,N/A,N/A
+Ἠρῳδιανῶν,11.87,"Herodians, partisans of Herod Antipas",N/A,N-GPM,Herodians
+Ἠρῴδην,93.144a,Herod,N/A,N-ASM,Herod
+Ἠρῴδης,93.144a,Herod,N/A,N-NSM,Herod
+Ἠρῴδου,93.144a,Herod,N/A,N-GSM,of Herod
+Ἠρῴδῃ,93.144b,Herod,N/A,N-DSM,Herod
+Ἠσαῦ,93.148,Esau,N/A,N-PRI,Esau
+Ἤγγιζεν,67.21,"come near, approach",Pred,V-IAI-3S,Was drawing near
+Ἤγγικεν,67.21,"come near, approach",Pred,V-RAI-3S,Has drawn near
+Ἤρ,N/A,N/A,N/A,N/A,N/A
+ἰουδαΐζειν,N/A,N/A,N/A,N/A,N/A
+ἴαται,23.136,heal,Pred,V-RPI-3S,she was healed
+Ἰάειρος,N/A,N/A,N/A,N/A,N/A
+Ἰάννης,N/A,N/A,N/A,N/A,N/A
+Ἰάρετ,N/A,N/A,N/A,N/A,N/A
+Ἰαμβρῆς,93.159,Jambres,N/A,N-NSM,Jambres
+Ἰανναί,N/A,N/A,N/A,N/A,N/A
+Ἰεζάβελ,N/A,N/A,N/A,N/A,N/A
+Ἰερειχώ,N/A,N/A,N/A,N/A,N/A
+Ἰεσσαί,N/A,N/A,N/A,N/A,N/A
+Ἰεφθάε,N/A,N/A,N/A,N/A,N/A
+Ἰουδαϊσμῷ,41.33,"Jewish religion, Judaism",N/A,N-DSM,Judaism
+Ἰουνίαν,N/A,N/A,N/A,N/A,N/A
+Ἰσκαριώθ,N/A,N/A,N/A,N/A,N/A
+Ἰσσαχάρ,N/A,N/A,N/A,N/A,N/A
+Ἰωάνει,N/A,N/A,N/A,N/A,N/A
+Ἰωήλ,N/A,N/A,N/A,N/A,N/A
+Ἰωαθάμ,N/A,N/A,N/A,N/A,N/A
+Ἰωανάν,N/A,N/A,N/A,N/A,N/A
+Ἰωβήδ,N/A,N/A,N/A,N/A,N/A
+Ἰωδά,N/A,N/A,N/A,N/A,N/A
+Ἰωνάμ,N/A,N/A,N/A,N/A,N/A
+Ἰωνᾶ,93.197a,Jonah,N/A,N-GSM,of Jonah
+Ἰωνᾶς,93.197a,Jonah,Subj,N-NSM,Jonah
+Ἰωράμ,N/A,N/A,N/A,N/A,N/A
+Ἰωρείμ,N/A,N/A,N/A,N/A,N/A
+Ἰωσήχ,N/A,N/A,N/A,N/A,N/A
+Ἰωσαφάτ,N/A,N/A,N/A,N/A,N/A
+Ἰωσείαν,N/A,N/A,N/A,N/A,N/A
+Ἰωσείας,N/A,N/A,N/A,N/A,N/A
+Ἰωσῆτος,93.201a,Joses,N/A,N-GSM,Joseph
+Ἰώβ,N/A,N/A,N/A,N/A,N/A
+Ἱερειχώ,N/A,N/A,N/A,N/A,N/A
+ὀλιγοπιστίαν,N/A,N/A,N/A,N/A,N/A
+ὀφθαλμοδουλίαις,N/A,N/A,N/A,N/A,N/A
+ὀφθαλμοδουλίαν,N/A,N/A,N/A,N/A,N/A
+Ὀζείαν,N/A,N/A,N/A,N/A,N/A
+Ὀζείας,N/A,N/A,N/A,N/A,N/A
+Ὀλυμπᾶν,93.287,Olympas,N/A,N-ASM,Olympas
+ὑπερεκπερισσῶς,N/A,"greatly, exceedingly",Adv,ADV,exceedingly
+ὑπερεκχυννόμενον,N/A,N/A,N/A,N/A,N/A
+ὑπ’,90.1,(with gen.) by; (with acc.) under,N/A,PREP,by
+ὑφ’,90.1,(with gen.) by; (with acc.) under,N/A,PREP,by
+ὠδίν,N/A,N/A,N/A,N/A,N/A
+Ὡσαννά,N/A,N/A,N/A,N/A,N/A
+Ὡσηέ,N/A,N/A,N/A,N/A,N/A
+ῥίψαν,N/A,N/A,N/A,N/A,N/A
+ῥεδῶν,6.53,chariot,N/A,N-GPF,of chariots
+ῥεραντισμένοι,N/A,N/A,N/A,N/A,N/A
+ῥοιζηδόν,N/A,N/A,N/A,N/A,N/A
+ῥυπανθήτω,N/A,N/A,N/A,N/A,N/A
+Ῥαάβ,N/A,N/A,N/A,N/A,N/A
+Ῥαββεί,N/A,N/A,N/A,N/A,N/A
+Ῥαββουνεί,N/A,N/A,N/A,N/A,N/A
+Ῥαγαῦ,93.307,"Ragau, Reu",N/A,N-PRI,of Reu
+Ῥαμά,N/A,N/A,N/A,N/A,N/A
+Ῥαχάβ,N/A,N/A,N/A,N/A,N/A
+Ῥεβέκκα,N/A,N/A,N/A,N/A,N/A
+Ῥησά,N/A,N/A,N/A,N/A,N/A
+Ῥοβοάμ,N/A,N/A,N/A,N/A,N/A
+Ῥομφά,N/A,N/A,N/A,N/A,N/A
+Ῥουβήν,N/A,N/A,N/A,N/A,N/A
+Ῥούθ,N/A,N/A,N/A,N/A,N/A
