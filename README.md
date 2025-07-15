@@ -20,9 +20,7 @@ All procedures and tools are fully documented and openly accessible to ensure co
 
 ## Production pipeline
 
- - [Create GNT word list in Betacode](Creating_GNT_betacode_wordlist/create_NT_wordlist_from_Betacode-feature.ipynb)
- - [run morpheus and convert to SP tags](api_the_morpheus/Morpheus_Morphological_Parser_UPDATE.ipynb)
- - [volatility_analyses](volitilty_analyses/Morpho-Syntactic-Volatility-update.ipynb)
+ - [Full production notebook](Production/Creation_morpheus_features_for_N1904-TF.ipynb)
 
 ## Testing
 
