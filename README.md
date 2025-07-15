@@ -1,4 +1,5 @@
-[![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept) 
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+
 
 # Create morpheus TF dataset
 
@@ -23,13 +24,13 @@ All procedures and tools are fully documented and openly accessible to ensure co
  - [run morpheus and convert to SP tags](api_the_morpheus/Morpheus_Morphological_Parser_UPDATE.ipynb)
  - [volatility_analyses](volitilty_analyses/Morpho-Syntactic-Volatility-update.ipynb)
 
-## Validation
+## Testing
 
- - [Validation](Validation/README.md): Section on validation of the data and its conversion
+ - [Testing](Testing/README.md): Section on testing of the data and its conversion
  
 ## Related projects
 
  - [Sandborg-Petersen-decoder](https://github.com/tonyjurg/Sandborg-Petersen-decoder): decoding the morphological tags.
  - [Morphkit](https://tonyjurg.github.io/morphkit/): Python package for interfacing with Morpheus and performing output analysis.
- - [Creating the TF feature betcode](https://github.com/tonyjurg/create_TF_feature_betacode): the foundational feature used to bridge Morpheus and Text-Fabric world
+ - [Creating the TF feature betcode](https://github.com/tonyjurg/create_TF_feature_betacode): the foundational feature used to bridge Morpheus and Text-Fabric world.
 
