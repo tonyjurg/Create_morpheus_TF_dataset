@@ -213,7 +213,7 @@ label| prepostion |Morphology | Dialect | MorphFlags | PoS and decl
 * Gregory Crane, _Morpheus––Homerica_ (source & commentary) [github.com/gregorycrane/Homerica](https://github.com/gregorycrane/Homerica)
 * Morpheus source code [github.com/PerseusDL/morpheus](https://github.com/PerseusDL/morpheus)
 * [Digital Classicist Wiki](https://wiki.digitalclassicist.org/Morpheus)
-* Python package [morphkit](https://tonyjurg.github.io/morphkit/) providing a clean and easy to use method to analyse the Morpheus blocks.
+* Python package [Morphkit](https://tonyjurg.github.io/morphkit/) providing a clean and easy to use method to analyse the Morpheus analytic blocks.
 * The notebook [OBSOLETE-Morpheus_Morphological_Extractor.ipynb](OBSOLETE-Morpheus_Morphological_Extractor.ipynb) is an earlier implementation.
 * [Analyses limits](analysis_limits.ipynd): There is a capping of 25 Morpheus analyses blocks for a single word.
 
