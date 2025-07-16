@@ -16,7 +16,7 @@ https://doi.org/10.1093/llc/6.4.243
 Published: 01 January 1991
 ```
 
-Morpheus’s operations fundamentally differ from a simple lookup method to determine morphological interpretations of a given word. Instead, it attempts to analyze the textual form by identifying components such as the stem and the ending, and then infers the morphological features. A [comment by Zachary Fletcher](https://github.com/perseids-tools/morpheus/issues/8#issuecomment-1692565071)  offers insight into how Morpheus works internally:
+Morpheus’s operations fundamentally differ from a simple lookup method to determine morphological interpretations of a given word. Instead, it attempts to analyse the textual form by identifying components such as the stem and the ending, and then infers the morphological features. A [comment by Zachary Fletcher](https://github.com/perseids-tools/morpheus/issues/8#issuecomment-1692565071)  offers insight into how Morpheus works internally:
 
 > ... Morpheus works differently from a relational database. When you ask it about καλῶν, it first tries to separate the stem from the ending and then checks both of them separately in its collection of stems and endings. The stems and endings are in the [/stemlib/Greek](https://github.com/PerseusDL/morpheus/tree/master/stemlib/Greek) directory I linked above. Morpheus also has some special case logic to deal with elision, crasis, dialectical differences (e.g. συν- vs. ξυν-), etc. If you'd like to figure out the logic, [/src/anal/checkstring.c](https://github.com/PerseusDL/morpheus/blob/master/src/anal/checkstring.c) is a good place to start.  (hyperlinks added by TJ)
 
@@ -106,7 +106,7 @@ For instance, the following four analysis blocks are returned when executing  [`
 :end wn imperf ind act 1st sg doric aeolic contr   ow_pr
 ```
 
-When using the function [`morphkit.analyze_word_with_morpheus('*ai)gupti/wn', base_url)`](https://github.com/tonyjurg/morphkit/blob/main/morphkit/analyze_word_with_morpheus.py), it will also gather these blocks, but also analyze all it's elements and store them in a dictionary with labeled morphological details according to the schema detailed on this page.
+When using the function [`morphkit.analyse_word_with_morpheus('*ai)gupti/wn', base_url)`](https://github.com/tonyjurg/morphkit/blob/main/morphkit/analyse_word_with_morpheus.py), it will also gather these blocks, but also analyse all it's elements and store them in a dictionary with labeled morphological details according to the schema detailed on this page.
 
 # Decoding the Morpheus blocks
 
