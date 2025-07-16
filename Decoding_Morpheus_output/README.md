@@ -2,7 +2,7 @@
 
 > Status — living document  │  Last updated: 22 June 2025
 > 
-> This document distils what I currently know about the full-detail output of the Morpheus Greek morphological analyser.  While extensive, it is not yet exhaustive, please report omissions or corrections so I can refine this page and the code denoding on it (like the [morphkit](https://tonyjurg.github.io/morphkit/) package). The main intention of this page is to provide details on the way data-extraction from the Morpheus internal database was implemented.
+> This document distils what I currently know about the full-detail output of the Morpheus Greek morphological analyser.  While extensive, it is not yet exhaustive, please report omissions or corrections so I can refine this page and the code denoding on it (like the [Morphkit](https://tonyjurg.github.io/morphkit/) package). The main intention of this page is to provide details on the way data-extraction from the Morpheus internal database was implemented.
 
 ## Morpheus the morphological parser
 
@@ -145,7 +145,7 @@ Lemma in Beta-Code format.  My exporter adds a Unicode copy to the dictionairy u
 
 In certain cases, there are two lemma entries, indicated by a number concatenated to the Betacode lemma. In such cases, the entries differ in grammatical role and meaning and should be treated as two separate lexemes that merely share the lemma string (homonymy).
 
-For example, the word `h)\` (betacode for the single‐letter word ἢ) has two lemma entries, `h)/1` and `h)/2`. Note the back slash  `\` and forward slash `/` are accent marks belonging to the lemma; only the final number functions numeric suffix, just as in the standard way of tagging homonyms (think ἢ¹ vs. ἢ²). Entry 1 has the part-of-speech tag `conj` (co-ordinating conjunction “or”), where entry 2 has the part-of-speech tag `exclam` (exclamatory particle “ah!”, “verily”, etc.).
+For example, the word `h)\` (betacode for the single‐letter word ἢ) has two lemma entries, `h)/1` and `h)/2`. Note the back slash  `\` and forward slash `/` are accent marks belonging to the lemma; only the final number functions as a numeric suffix, just as in the standard way of tagging homonyms (think ἢ¹ vs. ἢ²). Entry 1 has the part-of-speech tag `conj` (co-ordinating conjunction “or”), where entry 2 has the part-of-speech tag `exclam` (exclamatory particle “ah!”, “verily”, etc.).
 
 For certain lemmata Morpheus adds a betacode suffix `-pl` (-πλ). Examining its occurenses in the GNT all instances where Morpheus adds the suffix `-pl` can be linked mostly to persons, in a few instances  to places (e.g., `*(ierosolu/mois`; Ἱεροσολύμοις).
 
@@ -159,7 +159,7 @@ Label| Prepostionpart | Unknown | Dialect | MorphFlags | Unknown
 
 Prepostionpart: This can be either empty, one or two prepositions. Eg. διακατηλέγχετο ('diakathle/gxeto'; Acts 18:28) has 2: dia/,kata/.
 
-Dialect: contains dialect details arranged according C.D. Buck, The Greek Dialects (Chicago, 1955),p9. The values are defined in [dialect.h](https://github.com/PerseusDL/morpheus/blob/master/src/includes/dialect.h).
+Dialect: contains dialect details arranged according C.D. Buck, *The Greek Dialects; grammar, selected inscriptions, glossary* (Chicago: The University of Chicago Press,, 1955),9. The values are defined in [dialect.h](https://github.com/PerseusDL/morpheus/blob/master/src/includes/dialect.h).
 
 MorphFlags: contains details about morphological peculiarities. There are many possible values which are defined in file [morphflags.h](https://github.com/PerseusDL/morpheus/blob/master/src/includes/morphflags.h).
 
@@ -172,7 +172,7 @@ Label| Augmentpart | Unknown | Dialect | MorphFlags | Unknown
 ---|---|---|---|---|---
 `:aug1`| E.g.: `e)>h)`| - |E.g.: `attic`, `ionic` | E.g.: `syll_augment` | -
 
-Dialect: contains dialect details arranged according C.D. Buck, The Greek Dialects (Chicago, 1955),p9. The values are defined in [dialect.h](https://github.com/PerseusDL/morpheus/blob/master/src/includes/dialect.h).
+Dialect: contains dialect details arranged according C.D. Buck, *The Greek Dialects; grammar, selected inscriptions, glossary* (Chicago: The University of Chicago Press,, 1955),9. The values are defined in [dialect.h](https://github.com/PerseusDL/morpheus/blob/master/src/includes/dialect.h).
 
 MorphFlags: contains details about morphological peculiarities. There are many possible values which are defined in file [morphflags.h](https://github.com/PerseusDL/morpheus/blob/master/src/includes/morphflags.h) and/or [morphkeys.h](https://github.com/PerseusDL/morpheus/blob/master/src/morphlib/morphkeys.h).
 
@@ -184,7 +184,7 @@ Label| Stempart | Morphology | Dialect | MorphFlags | Stemtype
 
 Morphology: the usual morphological elements (number, gender, case, etc).
 
-Dialect: contains dialect details arranged according C.D. Buck, The Greek Dialects (Chicago, 1955),p9. The values are defined in [dialect.h](https://github.com/PerseusDL/morpheus/blob/master/src/includes/dialect.h).
+Dialect: contains dialect details arranged according C.D. Buck, *The Greek Dialects; grammar, selected inscriptions, glossary* (Chicago: The University of Chicago Press, 1955),9. The values are defined in [dialect.h](https://github.com/PerseusDL/morpheus/blob/master/src/includes/dialect.h).
 
 MorphFlags: contains details about morphological peculiarities. There are many possible values which are defined in file [morphflags.h](https://github.com/PerseusDL/morpheus/blob/master/src/includes/morphflags.h) and/or [morphkeys.h](https://github.com/PerseusDL/morpheus/blob/master/src/morphlib/morphkeys.h).
 
