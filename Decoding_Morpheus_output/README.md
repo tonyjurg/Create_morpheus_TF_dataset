@@ -1,4 +1,4 @@
-# Decoding the Morpheus output format
+# Decoding the Morpheus Output Format
 
 > Status — living document  │  Last updated: 22 June 2025
 > 
