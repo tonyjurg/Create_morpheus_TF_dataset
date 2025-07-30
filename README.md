@@ -9,7 +9,7 @@ This repository documents the creation of a new morphology-focused feature-set f
 
 This repository provides insight into the processing pipeline, including the Python code (primarily embedded in Jupyter Notebooks with comments), intermediate data, and the resulting Text-Fabric feature files. The final feature files (*.tf) are included in the package available at the [tonyjurg/N1904addons](https://tonyjurg.github.io/N1904addons/) repository. This repository also explains how an executable instance of Morpheus was set up to run inside a [Docker virtualization environment](Running_Morpheus_on_docker/running_morpheus_on_docker.md).
 
-The dataset builds on a previously developed Text-Fabric feature that added a betacode representation to each surface-level word. A new word-node feature, [`betacode`](https://tonyjurg.github.io/N1904addons/docs/features/betacode.html), was created to store the betacode equivalent of the Unicode text found in the [`text`](https://centerblc.github.io/N1904/features/text.html) feature.
+The dataset builds on a previously developed Text-Fabric feature that added a betacode representation to each surface-level word. A new word-node feature, [`betacode`](https://tonyjurg.github.io/N1904addons/docs/features/betacode.html), was created to store the Beta Code equivalent of the Unicode text found in the [`text`](https://centerblc.github.io/N1904/features/text.html) feature.
 
 All procedures and tools are fully documented and openly accessible to ensure complete reproducibility. The workflow is implemented in Python using Jupyter Notebooks, with each stage of the process modularized into standalone notebooks or scripts. This openness aims to encourage reuse and highlight Text-Fabric's transparency and flexibility.
 
@@ -30,7 +30,7 @@ All procedures and tools are fully documented and openly accessible to ensure co
 
  - [Sandborg-Petersen-decoder](https://github.com/tonyjurg/Sandborg-Petersen-decoder): decoding the morphological tags.
  - [Morphkit](https://tonyjurg.github.io/morphkit/): Python package for interfacing with Morpheus and performing output analysis.
- - [Creating the TF feature betacode](https://github.com/tonyjurg/create_TF_feature_betacode): the foundational feature used to bridge Morpheus and Text-Fabric world.
+ - [Creating the TF feature `betacode`](https://github.com/tonyjurg/create_TF_feature_betacode): the foundational feature used to bridge Morpheus and Text-Fabric world.
  - [Creating the entropy features](https://tonyjurg.github.io/Create-TF-entropy-features/): entropy as a measure of the uncertainty or variability of how an element (such as a surface level word, its morph, or its lemma) predicts or aligns with the syntactic functions (like Subject, Object, etc.) of the phrase it belongs to.
  - [Creating statistical functions](https://tonyjurg.github.io/Create_TF_stat_features/): like number of words and type to token ratio (TTR).
 
