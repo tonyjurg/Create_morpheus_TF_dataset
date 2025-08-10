@@ -20,6 +20,10 @@ All procedures and tools are fully documented and openly accessible to ensure co
 
 ## Production pipeline
 
+The following diagram show the high level production pipeline.
+
+<img src="images/pipeline.png">
+
  - [Full production notebook](Production/Creation_morpheus_features_for_N1904-TF.ipynb)
 
 ## Testing
