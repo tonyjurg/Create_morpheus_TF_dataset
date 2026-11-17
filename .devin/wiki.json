@@ -1,0 +1,214 @@
+{
+  "repo_notes": [
+    {
+      "author": "Tony Jurg",
+      "content": "This repository is the complete, reproducible processing pipeline that produces the N1904addons morphological extension for the Nestle 1904 Greek New Testament Text-Fabric dataset (N1904-TF). It is core material for a Research Master thesis in Biblical Studies and Digital Humanities.\n\nCore research claim: rather than adjudicating a single “correct” morphological parse, the project makes every plausible Morpheus analysis for each word token explicit, structured, ranked, and queryable inside Text-Fabric. Ambiguity itself becomes a first-class, measurable object of study (via similarity ranking against the original N1904 annotation, entropy measures, and phrase-level models).\n\nKey technical pillars:\n- Custom Python package Morphkit (https://tonyjurg.github.io/morphkit/) for interactive Morpheus access, Beta Code ↔ Unicode conversion, SP-tag mapping, and similarity metrics.\n- Dockerized Perseus Morpheus (batch cruncher + REST API on port 1315).\n- Heuristic ranking of parses against existing TF features (case, number, tense, etc.).\n- Generation of >1 000 new TF features across three levels: word-level diagnostics (mm_*), lemma-grouped variants (ms_*), and detailed per-parse blocks (md*).\n- Full integration into the open N1904addons repository so the data can be loaded with a normal tf.app.use() call.\n\nDocumentation priorities for the wiki:\n1. Emphasize the research goal of making morphological ambiguity visible and quantifiable for both theological and linguistic inquiry.\n2. Document the end-to-end pipeline (Unicode → Beta Code → Morpheus → ranking → .tf feature files) with clear data-flow diagrams.\n3. Treat the Jupyter notebooks as the primary executable documentation; link heavily to them.\n4. Highlight edge cases (dual number, proper-noun -pl suffixes, MAXANALYSES=25 truncation, unresolved words) because they illustrate the limits of automated analysis on real GNT data.\n5. Keep the Glossary rich with code pointers so onboarding researchers can jump straight into the relevant notebooks or Morphkit functions.\n6. Always distinguish this pipeline repo (Create_morpheus_TF_dataset) from the final consumer package (N1904addons) and from the Morphkit library."
+    }
+  ],
+  "pages": [
+    {
+      "title": "Project Overview",
+      "purpose": "High-level introduction to the Create_morpheus_TF_dataset project: its thesis research goals (explicit morphological ambiguity for Biblical Greek), architecture, key components (Morphkit, Docker Morpheus, ranking heuristics), and how the pipeline enriches the N1904-TF Greek New Testament dataset. Links to child pages for details.",
+      "page_notes": [
+        {
+          "content": "Open with the thesis framing: this is not merely a technical conversion pipeline but a deliberate methodological choice to keep every plausible parse rather than force a single adjudication. Mention the three feature layers (mm_*, ms_*, md*) and the downstream N1904addons integration. Point readers to the related projects listed in the README (Morphkit, Sandborg-Petersen-decoder, entropy features, statistical features)."
+        }
+      ]
+    },
+    {
+      "title": "Getting Started",
+      "purpose": "Setup instructions for new contributors or researchers: prerequisites (Docker, Python, Jupyter, Text-Fabric), repository structure, the common/ shared utilities module, and how to run the pipeline end-to-end.",
+      "parent": "Project Overview",
+      "page_notes": [
+        {
+          "content": "Stress reproducibility. Note that the heavy lifting of Morpheus is containerized; Python/Jupyter is used only for orchestration, ranking, and TF feature generation. Mention that Morphkit is the preferred interactive interface once the Docker API is running."
+        }
+      ]
+    },
+    {
+      "title": "Pipeline Architecture",
+      "purpose": "Detailed walkthrough of the full processing pipeline: from Unicode Greek text in N1904-TF → Beta Code conversion → Morpheus analysis → heuristic ranking → TF feature file generation. Describes the pipeline.png diagram and the data flow between stages.",
+      "parent": "Project Overview",
+      "page_notes": [
+        {
+          "content": "Use the pipeline.png diagram as the central visual. Explicitly name the hand-off points: betacode feature → Morpheus input, raw colon-prefixed blocks → Morphkit parsing, ranked parses → mm_/ms_/md_ feature dictionaries, finally .tf files destined for N1904addons. Emphasize that ranking never discards alternatives; it only orders them."
+        }
+      ]
+    },
+    {
+      "title": "Running Morpheus on Docker",
+      "purpose": "Overview of the Docker-based Morpheus deployment strategy, covering both the standard batch-processing approach and the API-based workflow. Links to child pages for setup details and scripting.",
+      "page_notes": [
+        {
+          "content": "Two complementary modes exist: (1) offline batch cruncher for the full GNT word-list and (2) long-running morpheus-api container for interactive Morphkit / notebook use. Both are essential for the thesis pipeline."
+        }
+      ]
+    },
+    {
+      "title": "Docker Setup and Container Management",
+      "purpose": "Step-by-step guide to deploying the Morpheus Docker containers (perseidsproject/morpheus and morpheus-api) on a Synology NAS or other host. Covers Container Manager, Portainer, volume mapping, and FileStation file transfer.",
+      "parent": "Running Morpheus on Docker",
+      "page_notes": [
+        {
+          "content": "Document the volume mounts that make the word-list and results directories persistent. Note any host-specific quirks observed on Synology (permissions, line endings)."
+        }
+      ]
+    },
+    {
+      "title": "Batch Processing Scripts",
+      "purpose": "Documentation of the Bash scripts used to batch-process GNT wordforms through the Morpheus cruncher inside the Docker container. Covers process_words.sh variants, cruncher command-line flags (-d, -S, -n), input/output file formats, and Windows/Linux line-ending issues.",
+      "parent": "Running Morpheus on Docker",
+      "page_notes": [
+        {
+          "content": "Highlight the importance of the -d flag (detailed colon-prefixed output) and the practical problems caused by CRLF vs LF line endings when moving files between Windows and the Linux container."
+        }
+      ]
+    },
+    {
+      "title": "API and SSH Access",
+      "purpose": "Describes the morpheus-api REST interface (port 1315), the morphkit Python library for interactive lookups from Jupyter notebooks, and the abandoned SSH/paramiko approach for remote container access.",
+      "parent": "Running Morpheus on Docker",
+      "page_notes": [
+        {
+          "content": "Morphkit is the preferred modern interface; the SSH experiment is historical and should be marked as such. Document the REST endpoint contract so other tools can reuse it."
+        }
+      ]
+    },
+    {
+      "title": "Decoding Morpheus Output",
+      "purpose": "Overview of how raw Morpheus cruncher output is interpreted and transformed into structured data. Links to child pages covering the output schema, parsing notebooks, and edge-case investigations.",
+      "page_notes": [
+        {
+          "content": "This section is the intellectual heart of the pipeline: turning opaque C-program output into clean, queryable Python/JSON structures that later become TF features. Emphasize Morphkit’s role as the semantic bridge."
+        }
+      ]
+    },
+    {
+      "title": "Morpheus Output Schema",
+      "purpose": "Reference documentation for the colon-prefixed output record format produced by the Morpheus cruncher with the -d flag. Covers each field (:raw, :workw, :lem, :prvb, :aug1, :stem, :suff, :end), column layouts, paradigm codes, dialect tags, and morph-flags.",
+      "parent": "Decoding Morpheus Output",
+      "page_notes": [
+        {
+          "content": "Provide a clear field-by-field reference table. Note that the schema is the contract between the C backend and all downstream Python code; any change here breaks ranking and feature generation."
+        }
+      ]
+    },
+    {
+      "title": "Morphological Parser Notebook",
+      "purpose": "Documents the parse_word_block pipeline in Morpheus_Morphological_Parser.ipynb: block segmentation from gnt_morphology_results.txt, field extraction, Beta Code to Unicode conversion, POS heuristics, and serialization to morpheus_parses.json. Also notes the legacy OBSOLETE extractor.",
+      "parent": "Decoding Morpheus Output",
+      "page_notes": [
+        {
+          "content": "Treat this notebook as the canonical implementation of the schema. Mention the legacy extractor only to warn readers not to use it."
+        }
+      ]
+    },
+    {
+      "title": "API Comparison and Analysis Limits",
+      "purpose": "Covers the MAXANALYSES=25 hard limit in the Morpheus C backend (gkstring.h / checkgenwds.c), how truncated result sets are silently returned by the API, and the compare_response_two_API_calls notebook comparing the two API call modes.",
+      "parent": "Decoding Morpheus Output",
+      "page_notes": [
+        {
+          "content": "This limit is a concrete illustration of why “all plausible analyses” is an engineering approximation, not an absolute. Document how the pipeline detects and handles truncation."
+        }
+      ]
+    },
+    {
+      "title": "Edge Cases and Special Morphological Phenomena",
+      "purpose": "Documents known edge cases in Morpheus output for GNT data: the dual number (archaic endings overlapping with singular/plural), the -pl suffix on proper noun lemmas, and other morphological quirks investigated in the Decoding_Morpheus_output/ notebooks.",
+      "parent": "Decoding Morpheus Output",
+      "page_notes": [
+        {
+          "content": "These edge cases are valuable for the thesis because they show where automated analysis diverges from traditional philological expectations. Link each phenomenon to the specific investigation notebook."
+        }
+      ]
+    },
+    {
+      "title": "Production Feature Generation",
+      "purpose": "Overview of the Production/ directory and the main notebook that creates N1904addons TF feature files from Morpheus data. Links to child pages for the notebook workflow and feature organization.",
+      "page_notes": [
+        {
+          "content": "This is the stage that turns research data into a reusable scholarly resource. Stress that the output is designed to be loaded alongside the original N1904-TF corpus via tf.app.use()."
+        }
+      ]
+    },
+    {
+      "title": "Creation_morpheus_features_for_N1904-TF Notebook",
+      "purpose": "Detailed walkthrough of the primary production notebook: loading N1904-TF, applying heuristic ranking of Morpheus parses against existing TF features (case, number, tense), generating word-node feature files, and exporting .tf files for the N1904addons repository.",
+      "parent": "Production Feature Generation",
+      "page_notes": [
+        {
+          "content": "Highlight the ranking logic: it never discards parses; it only orders them by similarity to the original annotation so that the “best” parse is the one most consistent with the accepted contextual reading while alternatives remain available for query."
+        }
+      ]
+    },
+    {
+      "title": "Feature Organisation and Output Schema",
+      "purpose": "Describes how the generated TF features are organised (as documented in organisation_of_features.pptx), what features are produced, their word-node scope, and how they integrate into the N1904addons repository.",
+      "parent": "Production Feature Generation",
+      "page_notes": [
+        {
+          "content": "Explain the three layers clearly: mm_* (meta / diagnostics), ms_* (lemma-grouped summaries), md* (detailed per-parse blocks, up to 24). Point to the PowerPoint and to the corresponding documentation in the N1904addons repo."
+        }
+      ]
+    },
+    {
+      "title": "Testing and Validation",
+      "purpose": "Overview of the Testing/ directory: its purpose as a validation sandbox for the Morpheus-to-SP-tag mapping, the morph browser, and coverage analysis. Links to child pages for specific testing workflows.",
+      "page_notes": [
+        {
+          "content": "Validation is essential for a thesis that claims to make ambiguity measurable. The tests demonstrate both coverage and the quality of the ranking / mapping."
+        }
+      ]
+    },
+    {
+      "title": "SP-Tag Mapping and Validation",
+      "purpose": "Documents the workflow for validating the Morpheus-to-SP-tag mapping: Generate_test_set.ipynb producing test-set.txt and beta_morph_pairs.txt triplets, validate_Morpheus_SP_tagging_using_N1904-TF.ipynb, tag_compare.ipynb, and the SP-tag-analysis HTML reports. Covers SP-Morphs-used-in-MACULA.ipynb.",
+      "parent": "Testing and Validation",
+      "page_notes": [
+        {
+          "content": "The SP (Sandborg-Petersen) tag set is the lingua franca used by N1904-TF and MACULA. Accurate mapping is a prerequisite for the similarity metric."
+        }
+      ]
+    },
+    {
+      "title": "Morphology Browser and POS Analysis",
+      "purpose": "Covers Building_the_N1904-TF_morph_browser.ipynb and the grouped_morphology_dynamic.html interactive browser, test_obtaining_pos_from_morpheus.ipynb for POS sufficiency checks, countWordForms.py for wordform frequency analysis, and get_all_keys_from_block_parsing.ipynb.",
+      "parent": "Testing and Validation",
+      "page_notes": [
+        {
+          "content": "The interactive HTML browser is a useful demonstration artefact for the thesis: it lets non-programmers explore the ranked alternatives."
+        }
+      ]
+    },
+    {
+      "title": "Unresolved Words",
+      "purpose": "Documents the unresolved_words/ sub-directory: what constitutes an unresolved word (no Morpheus analysis block returned), the unresolvedBetacode.txt and unresolvedUnicode.json files, the decode_unresolved_words.ipynb analysis notebook, follow_up_on_error.ipynb, and greekWordFeatures.csv fallback lookup.",
+      "parent": "Testing and Validation",
+      "page_notes": [
+        {
+          "content": "Unresolved words are an honest report of the limits of the analyser on real GNT data (proper names, rare forms, encoding edge cases). They should be presented as such rather than hidden."
+        }
+      ]
+    },
+    {
+      "title": "Morphological Dispersion and Match Analysis",
+      "purpose": "Covers wordform2morph_dispersion.ipynb (wordform-to-morphology dispersion statistics), match_morpheus_to_GNT_words.ipynb (aligning Morpheus analyses to specific GNT word nodes), some_test_run.ipynb, and Test-morph-tag-decoding_by_Morpheus.ipynb.",
+      "parent": "Testing and Validation",
+      "page_notes": [
+        {
+          "content": "Dispersion and match statistics feed directly into the entropy and phrase-level models mentioned in the thesis abstract. They quantify how much morphological choice actually exists for each surface form."
+        }
+      ]
+    },
+    {
+      "title": "Glossary",
+      "purpose": "Definitions of all codebase-specific terms, abbreviations, and domain concepts that an onboarding engineer or biblical-studies researcher needs to understand. Each entry includes code pointers to relevant files, functions, or data fields.",
+      "page_notes": [
+        {
+          "content": "Include at least: Beta Code, Morpheus, Morphkit, SP-tag / Sandborg-Petersen, N1904-TF, N1904addons, mm_*/ms_*/md* feature layers, gram_dif, MAXANALYSES, dual number, analysis block, ranking / similarity metric, entropy features. Every definition should point to a concrete notebook, Morphkit function, or .tf feature file."
+        }
+      ]
+    }
+  ]
+}
